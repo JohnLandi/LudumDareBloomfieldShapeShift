@@ -47,9 +47,9 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\MenuController.cs" />
-     <Compile Include="Assets\Scripts\Movement.cs" />
+     <Compile Include="Assets\Scripts\PlayerManager.cs" />
      <Compile Include="Assets\Scripts\Spawn.cs" />
-     <Compile Include="Assets\Scripts\TouchTest.cs" />
+     <Compile Include="Assets\Scripts\SpawnedObjectManager.cs" />
      <None Include="Assets\Art\Placeholder.txt" />
      <None Include="Assets\Prefabs\Placeholder.txt" />
      <None Include="Assets\Audio\PlaceHolder.txt" />

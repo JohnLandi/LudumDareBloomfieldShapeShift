@@ -34,7 +34,7 @@ public class GameController : MonoBehaviour {
 	
 	//Runs and Resets timer, initiates Spawner() from Spawn script
 	void Update () 
-	{
+	{		
 		timer = timer - Time.deltaTime;
 		if(timer <= 0)
 		{
