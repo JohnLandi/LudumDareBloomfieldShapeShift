@@ -1,7 +1,14 @@
-﻿using UnityEngine;
+﻿//Controls Gameplay objects and script actions
+using UnityEngine;
 using System.Collections;
 
 public class GameController : MonoBehaviour {
+
+	Spawn spawn;
+
+	public float TimeBetweenSpawn;
+	private float timer;
+
 
 	//use this where you want to save
 	/*
@@ -9,17 +16,30 @@ public class GameController : MonoBehaviour {
 		PlayerPrefs.Save();
 	 */
 
-	// Use this for initialization
+	//Get Components
+	void Awake()
+	{
+		spawn = GetComponent<Spawn>();
+	}
+
+	//Begin timer
 	void Start () 
 	{
+		timer = TimeBetweenSpawn;
+		
 		//	this shit below needs to be in the start for player prefs
 		//	PlayerPrefs.GetInt("ppHighScore");
 		//	highScore = PlayerPrefs.GetInt ("ppHighScore");
 	}
 	
-	// Update is called once per frame
+	//Runs and Resets timer, initiates Spawner() from Spawn script
 	void Update () 
 	{
-	
+		timer = timer - Time.deltaTime;
+		if(timer <= 0)
+		{
+			spawn.Spawner();
+			timer = TimeBetweenSpawn;
+		}
 	}
 }
