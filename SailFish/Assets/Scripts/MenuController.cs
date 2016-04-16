@@ -1,6 +1,6 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
+//using UnityEngine.SceneManagement;
 
 public class MenuController: MonoBehaviour
 {
@@ -19,7 +19,7 @@ public class MenuController: MonoBehaviour
 
 	public void ToGame()
 	{
-		SceneManager.LoadScene(1);
+//		SceneManager.LoadScene(1);
 	}
 
 	public void Quit()
