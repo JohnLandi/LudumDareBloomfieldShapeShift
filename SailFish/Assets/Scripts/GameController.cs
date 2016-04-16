@@ -4,7 +4,9 @@ using System.Collections;
 
 public class GameController : MonoBehaviour {
 
-	public static float BackgroundMaterialOffsetSpeed;
+	//Material offset speed is divided by this number
+	public static float BackgroundMaterialOffsetSpeed = 4;
+	public float MaterialSpeedOverride;
 
 	Spawn spawn;
 
@@ -37,6 +39,8 @@ public class GameController : MonoBehaviour {
 	//Runs and Resets timer, initiates Spawner() from Spawn script
 	void Update () 
 	{		
+		BackgroundMaterialOffsetSpeed = MaterialSpeedOverride;
+
 		timer = timer - Time.deltaTime;
 		if(timer <= 0)
 		{

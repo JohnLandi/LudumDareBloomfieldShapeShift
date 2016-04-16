@@ -3,13 +3,11 @@ using System.Collections;
 
 public class MaterialOffsetSpeed : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	public Material backgroundMaterial;
+	public float speedModifier = 1;
+
+	void Update () 
+	{
+		backgroundMaterial.mainTextureOffset = backgroundMaterial.mainTextureOffset + new Vector2 ((Time.deltaTime / (GameController.BackgroundMaterialOffsetSpeed / speedModifier)), 0);
 	}
 }

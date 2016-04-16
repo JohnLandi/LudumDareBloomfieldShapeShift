@@ -22,5 +22,7 @@ public class SpawnedObjectManager : MonoBehaviour {
 	{
 		if(death.gameObject.tag == ("KillIt"))
 			Destroy(this.gameObject);
+		if(death.gameObject.tag == ("Player"))
+			Destroy(this.gameObject);
 	}
 }
