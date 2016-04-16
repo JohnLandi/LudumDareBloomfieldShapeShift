@@ -12,8 +12,9 @@ public class GameController : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		PlayerPrefs.GetInt("ppHighScore");
-		highScore = PlayerPrefs.GetInt ("ppHighScore");
+		//	this shit below needs to be in the start for player prefs
+		//	PlayerPrefs.GetInt("ppHighScore");
+		//	highScore = PlayerPrefs.GetInt ("ppHighScore");
 	}
 	
 	// Update is called once per frame
