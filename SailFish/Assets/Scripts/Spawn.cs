@@ -6,6 +6,9 @@ public class Spawn : MonoBehaviour {
 
 	public Transform[] spawnPoints;
 	public GameObject[] Objects;
+	public GameObject[] ObjectsTwo;
+	public GameObject[] EnemyType;
+	public GameObject[] FoodType;
 
 
 	public void Spawner()
@@ -18,7 +21,31 @@ public class Spawn : MonoBehaviour {
 		int randomSpawnPoint = Random.Range (0, spawnPoints.Length);
 		int randomSpawnPointTwo = Random.Range (0, spawnPoints.Length);
 
-
+		//Food and Enemies will appear specifically by their position of Sky, Earth, or Water
+		if(randomSpawnPoint == 0){
+			Objects[0] = EnemyType[0];
+			Objects[1] = FoodType[0];
+		}
+		if(randomSpawnPoint == 1){
+			Objects[0] = EnemyType[1];
+			Objects[1] = FoodType[1];
+		}
+		if(randomSpawnPoint == 2){
+			Objects[0] = EnemyType[2];
+			Objects[1] = FoodType[2];
+		}
+		if(randomSpawnPointTwo == 0){
+			ObjectsTwo[0] = EnemyType[0];
+			ObjectsTwo[1] = FoodType[0];
+		}
+		if(randomSpawnPointTwo == 1){
+			ObjectsTwo[0] = EnemyType[1];
+			ObjectsTwo[1] = FoodType[1];
+		}
+		if(randomSpawnPointTwo == 2){
+			ObjectsTwo[0] = EnemyType[2];
+			ObjectsTwo[1] = FoodType[2];
+		}
 
 		//creates a random game object from Objects array at the random position located in the spawnPoints array
 		Instantiate (Objects[randomObject], spawnPoints[randomSpawnPoint].position, spawnPoints[randomSpawnPoint].rotation);
@@ -27,7 +54,7 @@ public class Spawn : MonoBehaviour {
 		if (randomSpawnPointTwo != randomSpawnPoint)
 		{
 			//spawns second object
-			Instantiate (Objects[randomObjectTwo], spawnPoints[randomSpawnPointTwo].position, spawnPoints[randomSpawnPointTwo].rotation);
+			Instantiate (ObjectsTwo[randomObjectTwo], spawnPoints[randomSpawnPointTwo].position, spawnPoints[randomSpawnPointTwo].rotation);
 		}
 	}
 }

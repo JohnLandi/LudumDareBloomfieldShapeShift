@@ -4,6 +4,8 @@ using System.Collections;
 
 public class GameController : MonoBehaviour {
 
+	public static float BackgroundMaterialOffsetSpeed;
+
 	Spawn spawn;
 
 	public float TimeBetweenSpawn;

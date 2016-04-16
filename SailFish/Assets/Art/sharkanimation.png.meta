@@ -1,9 +1,15 @@
 fileFormatVersion: 2
 guid: e9564b79bc3aaf04cb40267672977a99
-timeCreated: 1460776274
+timeCreated: 1460797780
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: sharkanimation_0
+    21300002: sharkanimation_1
+    21300004: sharkanimation_2
+    21300006: sharkanimation_3
+    21300008: sharkanimation_4
+    21300010: sharkanimation_5
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -26,11 +32,11 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +44,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +55,132 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: sharkanimation_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 344
+        height: 216
+      alignment: 9
+      pivot: {x: 0.54, y: 0.38310853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.194214, y: 79.43938}
+        - {x: 27.194214, y: 84.43938}
+        - {x: -175.80579, y: 84.43938}
+        - {x: -175.80579, y: -56.560623}
+        - {x: -174.80579, y: -61.560623}
+        - {x: 64.194214, y: -61.560623}
+        - {x: 151.19421, y: -4.560623}
+        - {x: 151.19421, y: 30.439377}
+        - {x: 149.19421, y: 36.439377}
+    - name: sharkanimation_1
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 325
+        height: 216
+      alignment: 9
+      pivot: {x: 0.49245548, y: 0.37183616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -151.03442, y: 93.747955}
+        - {x: -152.03442, y: 92.747955}
+        - {x: -152.03442, y: -34.252045}
+        - {x: -78.034424, y: -58.252045}
+        - {x: 74.965576, y: -58.252045}
+        - {x: 156.96558, y: 0.7479553}
+        - {x: 156.96558, y: 93.747955}
+    - name: sharkanimation_2
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 0
+        width: 352
+        height: 216
+      alignment: 9
+      pivot: {x: 0.53176653, y: 0.39135826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.590881, y: 76.74983}
+        - {x: -97.59088, y: 83.74983}
+        - {x: -177.59088, y: 83.74983}
+        - {x: -177.59088, y: 48.749832}
+        - {x: -156.59088, y: -29.250168}
+        - {x: -133.59088, y: -20.250168}
+        - {x: 10.409119, y: -63.250168}
+        - {x: 31.409119, y: -63.250168}
+        - {x: 156.40912, y: -19.250168}
+        - {x: 156.40912, y: 65.74983}
+        - {x: 21.409119, y: 83.74983}
+    - name: sharkanimation_3
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 0
+        width: 315
+        height: 216
+      alignment: 9
+      pivot: {x: 0.4822161, y: 0.3767389}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -144.01807, y: 90.74387}
+        - {x: -144.01807, y: -12.256126}
+        - {x: -134.01807, y: -21.256126}
+        - {x: -126.01807, y: -23.256126}
+        - {x: -124.01807, y: -17.256126}
+        - {x: 8.981934, y: -60.256126}
+        - {x: 37.981934, y: -60.256126}
+        - {x: 133.98193, y: -34.256126}
+        - {x: 154.98193, y: 12.743874}
+        - {x: 154.98193, y: 71.74387}
+        - {x: 95.98193, y: 90.74387}
+    - name: sharkanimation_4
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 353
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5222943, y: 0.38668588}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 154.87146, y: 51.706734}
+        - {x: 67.87146, y: 74.70673}
+        - {x: 7.87146, y: 84.70673}
+        - {x: -175.12854, y: 84.70673}
+        - {x: -175.12854, y: -35.293266}
+        - {x: 0.87145996, y: -62.293266}
+        - {x: 38.87146, y: -62.293266}
+        - {x: 127.87146, y: -19.293266}
+        - {x: 160.87146, y: 10.706734}
+        - {x: 160.87146, y: 39.706734}
+    - name: sharkanimation_5
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 0
+        width: 316
+        height: 216
+      alignment: 9
+      pivot: {x: 0.504213, y: 0.37673897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.919067, y: 86.74386}
+        - {x: -7.0809326, y: 82.74386}
+        - {x: -9.080933, y: 77.74386}
+        - {x: -92.08093, y: 92.74386}
+        - {x: -151.08093, y: 92.74386}
+        - {x: -151.08093, y: -20.256142}
+        - {x: -12.080933, y: -60.25614}
+        - {x: 71.91907, y: -60.25614}
+        - {x: 149.91907, y: -9.256142}
+        - {x: 149.91907, y: 27.743858}
+        - {x: 123.91907, y: 63.74386}
     outline: []
   spritePackingTag: 
   userData: 

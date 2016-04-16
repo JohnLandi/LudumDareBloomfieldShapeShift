@@ -7,7 +7,12 @@ public class PlayerManager : MonoBehaviour {
 	public Transform[] playerPositions;
 	public int positionChange = 1;
 	public float speed;
+	Animator anim;
 
+	void Awake()
+	{
+		anim = GetComponent<Animator>();
+	}
 
 	void Update () 
 	{
@@ -19,14 +24,17 @@ public class PlayerManager : MonoBehaviour {
 			if(Input.GetMouseButtonUp(0) && hit.transform.tag == "Sky")
 			{
 					positionChange = 0;
+					anim.SetInteger ("Shapeshift", 0);
 			}
 			if(Input.GetMouseButtonUp(0) && hit.transform.tag == "Earth")
 			{
 					positionChange = 1;
+					anim.SetInteger ("Shapeshift", 1);
 			}
 			if(Input.GetMouseButtonUp(0) && hit.transform.tag == "Water")
 			{
 					positionChange = 2;
+					anim.SetInteger ("Shapeshift", 2);
 			}
 			//Touch commands to set player to different array positions
 			foreach (Touch touch in Input.touches)
@@ -34,14 +42,17 @@ public class PlayerManager : MonoBehaviour {
 				if(Input.GetTouch(0).phase == TouchPhase.Began && hit.transform.tag == "Sky")
 				{
 					positionChange = 0;
+					anim.SetInteger ("Shapeshift", 0);
 				}
 				if(Input.GetTouch(0).phase == TouchPhase.Began && hit.transform.tag == "Earth")
 				{
 					positionChange = 1;
+					anim.SetInteger ("Shapeshift", 1);
 				}
 				if(Input.GetTouch(0).phase == TouchPhase.Began && hit.transform.tag == "Water")
 				{
 					positionChange = 2;
+					anim.SetInteger ("Shapeshift", 2);
 				}
 			}
 		}

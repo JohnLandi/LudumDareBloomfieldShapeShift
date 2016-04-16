@@ -1,9 +1,17 @@
 fileFormatVersion: 2
 guid: 7e06294a9f3217240b6fabc84ddfd807
-timeCreated: 1460782977
+timeCreated: 1460797345
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: lionanimation_0
+    21300002: lionanimation_1
+    21300004: lionanimation_2
+    21300006: lionanimation_3
+    21300008: lionanimation_4
+    21300010: lionanimation_5
+    21300012: lionanimation_6
+    21300014: lionanimation_7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -26,11 +34,11 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +46,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +57,172 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: lionanimation_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 492
+        height: 216
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.46759963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 126.023796, y: -51.445217}
+        - {x: 126.023796, y: 25.554783}
+        - {x: 121.023796, y: 31.554783}
+        - {x: 55.023796, y: 55.554783}
+        - {x: -124.976204, y: 55.554783}
+        - {x: -124.976204, y: -51.445217}
+    - name: lionanimation_1
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 426
+        height: 216
+      alignment: 9
+      pivot: {x: 0.50985706, y: 0.40279904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.3154, y: 54.664333}
+        - {x: -110.3154, y: 54.664333}
+        - {x: -110.3154, y: 44.664333}
+        - {x: -106.3154, y: 41.664333}
+        - {x: -96.3154, y: 36.664333}
+        - {x: -61.3154, y: 31.664333}
+        - {x: -92.3154, y: -10.335667}
+        - {x: -90.3154, y: -40.335667}
+        - {x: -75.3154, y: -43.335667}
+        - {x: 95.6846, y: -43.335667}
+        - {x: 106.6846, y: -25.335667}
+        - {x: 106.6846, y: 36.664333}
+    - name: lionanimation_2
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 418
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -86.11902, y: 45}
+        - {x: -106.11902, y: 40}
+        - {x: -106.11902, y: 12}
+        - {x: -57.11902, y: -39}
+        - {x: -16.119019, y: -54}
+        - {x: 93.88098, y: -54}
+        - {x: 106.88098, y: -22}
+        - {x: 106.88098, y: 45}
+    - name: lionanimation_3
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 0
+        width: 402
+        height: 216
+      alignment: 9
+      pivot: {x: 0.49303654, y: 0.59072083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.585999, y: 37.04663}
+        - {x: -99.586, y: 20.04663}
+        - {x: -100.586, y: 18.04663}
+        - {x: -100.586, y: 9.046631}
+        - {x: -96.586, y: 5.046631}
+        - {x: -82.586, y: -4.953369}
+        - {x: -14.585999, y: -45.95337}
+        - {x: -3.5859985, y: -48.95337}
+        - {x: 28.414001, y: -48.95337}
+        - {x: 104.414, y: -19.95337}
+        - {x: 104.414, y: 30.04663}
+        - {x: 57.414, y: 37.04663}
+    - name: lionanimation_4
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 0
+        width: 406
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6166411}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 103.817505, y: 27.202805}
+        - {x: -18.182495, y: 27.202805}
+        - {x: -103.182495, y: 15.202805}
+        - {x: -103.182495, y: 2.2028046}
+        - {x: -92.182495, y: -6.7971954}
+        - {x: -34.182495, y: -43.797195}
+        - {x: 21.817505, y: -66.797195}
+        - {x: 42.817505, y: -66.797195}
+        - {x: 43.817505, y: -64.797195}
+        - {x: 37.817505, y: -49.797195}
+        - {x: 103.817505, y: -19.797195}
+    - name: lionanimation_5
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 0
+        width: 415
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5061882, y: 0.6783504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 105.362305, y: -30.567589}
+        - {x: 105.362305, y: 21.432411}
+        - {x: -54.637695, y: 21.432411}
+        - {x: -106.637695, y: 17.432411}
+        - {x: -106.637695, y: 4.432411}
+        - {x: -105.637695, y: 2.4324112}
+        - {x: -96.637695, y: 0.4324112}
+        - {x: -90.637695, y: 0.4324112}
+        - {x: -36.637695, y: -63.56759}
+        - {x: -20.637695, y: -74.56759}
+        - {x: 1.3623047, y: -74.56759}
+        - {x: 4.3623047, y: -64.56759}
+        - {x: -1.6376953, y: -62.56759}
+        - {x: 33.362305, y: -69.56759}
+    - name: lionanimation_6
+      rect:
+        serializedVersion: 2
+        x: 3037
+        y: 0
+        width: 455
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5, y: 0.74374545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.396729, y: 22.257637}
+        - {x: -115.39673, y: 15.257637}
+        - {x: -115.39673, y: -7.742363}
+        - {x: -69.39673, y: -80.74236}
+        - {x: 89.60327, y: -80.74236}
+        - {x: 116.60327, y: -70.74236}
+        - {x: 116.60327, y: 22.257637}
+    - name: lionanimation_7
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 0
+        width: 484
+        height: 216
+      alignment: 9
+      pivot: {x: 0.50530654, y: 0.65457034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.248901, y: 36.041428}
+        - {x: -124.2489, y: 36.041428}
+        - {x: -124.2489, y: -66.95857}
+        - {x: -122.2489, y: -70.95857}
+        - {x: 122.7511, y: -70.95857}
+        - {x: 122.7511, y: 0.041427612}
+        - {x: 118.7511, y: 30.041428}
     outline: []
   spritePackingTag: 
   userData: 

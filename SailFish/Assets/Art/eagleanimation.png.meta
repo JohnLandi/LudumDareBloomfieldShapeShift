@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 5d3138abfe7390b4bb36ce117056b565
+timeCreated: 1460797143
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: eagleanimation_0
+    21300002: eagleanimation_1
+    21300004: eagleanimation_2
+    21300006: eagleanimation_3
+    21300008: eagleanimation_4
+    21300010: eagleanimation_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: eagleanimation_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 194
+        height: 216
+      alignment: 9
+      pivot: {x: 0.4089243, y: 0.47941893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.668686, y: 13.445511}
+        - {x: 13.668686, y: 13.445511}
+        - {x: -16.331314, y: 10.445511}
+        - {x: -72.331314, y: -0.55448914}
+        - {x: -79.331314, y: -13.554489}
+        - {x: -79.331314, y: -32.55449}
+        - {x: 114.668686, y: -32.55449}
+        - {x: 114.668686, y: -10.554489}
+        - {x: 46.668686, y: 12.445511}
+    - name: eagleanimation_1
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 153
+        height: 216
+      alignment: 9
+      pivot: {x: 0.50830156, y: 0.45001742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75.22986, y: 111.796234}
+        - {x: -76.77014, y: 111.796234}
+        - {x: -77.77014, y: 108.796234}
+        - {x: -77.77014, y: -21.203766}
+        - {x: -49.77014, y: -26.203766}
+        - {x: 38.22986, y: -26.203766}
+        - {x: 67.22986, y: -18.203766}
+        - {x: 72.22986, y: -15.203766}
+        - {x: 75.22986, y: -11.203766}
+    - name: eagleanimation_2
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 0
+        width: 141
+        height: 216
+      alignment: 9
+      pivot: {x: 0.504504, y: 0.46177804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.864929, y: 12.255943}
+        - {x: -11.135071, y: 7.2559433}
+        - {x: -71.13507, y: -4.7440567}
+        - {x: -71.13507, y: -77.74406}
+        - {x: -66.13507, y: -96.74406}
+        - {x: 61.86493, y: -96.74406}
+        - {x: 69.86493, y: -89.74406}
+        - {x: 69.86493, y: 4.2559433}
+        - {x: 67.86493, y: 12.255943}
+    - name: eagleanimation_3
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 0
+        width: 153
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5415079, y: 0.45589772}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.850708, y: 34.526093}
+        - {x: -82.85071, y: 9.526093}
+        - {x: -82.85071, y: -42.473907}
+        - {x: 25.149292, y: -42.473907}
+        - {x: 70.14929, y: -27.473907}
+        - {x: 70.14929, y: 29.526093}
+        - {x: 58.149292, y: 34.526093}
+    - name: eagleanimation_4
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 0
+        width: 141
+        height: 216
+      alignment: 9
+      pivot: {x: 0.49999955, y: 0.4235561}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.500061, y: 83.51189}
+        - {x: -47.49994, y: 83.51189}
+        - {x: -64.49994, y: 68.51189}
+        - {x: -70.49994, y: 33.511887}
+        - {x: -70.49994, y: -9.488113}
+        - {x: -3.499939, y: -18.488113}
+        - {x: 58.50006, y: -18.488113}
+        - {x: 70.50006, y: -16.488113}
+        - {x: 70.50006, y: 22.511887}
+        - {x: 49.50006, y: 77.51189}
+    - name: eagleanimation_5
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 0
+        width: 139
+        height: 216
+      alignment: 9
+      pivot: {x: 0.4954307, y: 0.4000349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.864868, y: 49.59246}
+        - {x: -68.86487, y: -0.40753937}
+        - {x: -68.86487, y: -5.4075394}
+        - {x: -12.864868, y: -17.40754}
+        - {x: 45.13513, y: -17.40754}
+        - {x: 70.13513, y: -16.40754}
+        - {x: 70.13513, y: 0.59246063}
+        - {x: 56.13513, y: 49.59246}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
