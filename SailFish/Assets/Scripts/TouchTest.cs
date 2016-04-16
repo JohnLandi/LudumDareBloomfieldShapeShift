@@ -15,15 +15,15 @@ public class TouchTest : MonoBehaviour {
 		foreach (Touch touch in Input.touches)
 		{
 			//if this is touched/held down....
-			if (guiTexture.HitTest(touch.position) && Input.GetTouch(0).phase == TouchPhase.Began)
+			if (GetComponent<GUITexture>().HitTest(touch.position) && Input.GetTouch(0).phase == TouchPhase.Began)
 			{
-				guiTexture.texture = buttonDown;
+				GetComponent<GUITexture>().texture = buttonDown;
 				//button clicked down texture change
 			}
 			//if you touch this then let go....
-			else if (guiTexture.HitTest(touch.position) && Input.GetTouch(0).phase == TouchPhase.Ended)
+			else if (GetComponent<GUITexture>().HitTest(touch.position) && Input.GetTouch(0).phase == TouchPhase.Ended)
 			{
-				guiTexture.texture = buttonUp;
+				GetComponent<GUITexture>().texture = buttonUp;
 				//Button release up texture change
 			}
 		}
@@ -31,10 +31,10 @@ public class TouchTest : MonoBehaviour {
 
 	void OnMouseDown()
 	{
-				guiTexture.texture = buttonDown;
+				GetComponent<GUITexture>().texture = buttonDown;
 	}
 	void OnMouseUp()
 	{
-				guiTexture.texture = buttonUp;
+				GetComponent<GUITexture>().texture = buttonUp;
 	}
 }
