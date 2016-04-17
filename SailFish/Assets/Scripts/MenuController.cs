@@ -12,6 +12,8 @@ public class MenuController: MonoBehaviour
 	public GameObject m_Credits;
 	public GameObject m_Rules;
 	public GameObject m_Retry;
+	public GameObject HUD1;
+	public GameObject HUD2;
 
 
 	// Use this for initialization
@@ -23,7 +25,7 @@ public class MenuController: MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-
+		
 	}
 
 	public void ToGame()
@@ -37,6 +39,9 @@ public class MenuController: MonoBehaviour
 		gc.PlayGamplayMusic();
 		gc.StopMainMenuMusic();
 		gc.StopCreditsMusic();
+
+		HUD1.SetActive(true);
+		HUD2.SetActive(true);
 
 		gc.m_running = true;
 
@@ -89,6 +94,9 @@ public class MenuController: MonoBehaviour
 		m_MainMenu.SetActive(false);
 		m_Retry.SetActive(true);
 		m_Rules.SetActive(false);
+
+		HUD1.SetActive(false);
+		HUD2.SetActive(false);
 
 		gc.m_running = false;
 	}
