@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e16ca508110378746b5d3fefe6d8056e
-timeCreated: 1460868391
+timeCreated: 1460880763
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -55,37 +55,40 @@ TextureImporter:
     - name: BackButton_0
       rect:
         serializedVersion: 2
-        x: 90
-        y: 17
-        width: 64
-        height: 234
+        x: 21
+        y: 33
+        width: 263
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 24, y: 117}
-        - {x: -32, y: 80}
-        - {x: -32, y: -117}
-        - {x: -15, y: -117}
-        - {x: 32, y: -85}
-        - {x: 32, y: 117}
+      - - {x: -131.5, y: 41}
+        - {x: -131.5, y: 31}
+        - {x: -98.5, y: -34}
+        - {x: -81.5, y: -41}
+        - {x: 131.5, y: -41}
+        - {x: 131.5, y: -21}
+        - {x: 91.5, y: 41}
     - name: BackButton_1
       rect:
         serializedVersion: 2
-        x: 207
-        y: 25
-        width: 64
-        height: 229
+        x: 321
+        y: 41
+        width: 263
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32, y: 77.5}
-        - {x: -32, y: -114.5}
-        - {x: -23, y: -114.5}
-        - {x: 32, y: -78.5}
-        - {x: 32, y: 114.5}
-        - {x: 20, y: 114.5}
+      - - {x: 88.5, y: 37}
+        - {x: -131.5, y: 37}
+        - {x: -131.5, y: 31}
+        - {x: -125.5, y: 21}
+        - {x: -88.5, y: -37}
+        - {x: 131.5, y: -37}
+        - {x: 131.5, y: -31}
+        - {x: 93.5, y: 30}
     outline: []
   spritePackingTag: 
   userData: 

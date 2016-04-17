@@ -9,6 +9,8 @@ public class PlayerManager : MonoBehaviour {
 	public float speed;
 	Animator anim;
 
+	public GameController gc;
+
 	void Awake()
 	{
 		anim = GetComponent<Animator>();
@@ -16,43 +18,46 @@ public class PlayerManager : MonoBehaviour {
 
 	void Update () 
 	{
-		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
-		RaycastHit hit;
-		if(Physics.Raycast(ray, out hit, 30))
+		if(gc.m_running == true)
 		{
-			//mouse commands to set player to different array positions
-			if(Input.GetMouseButtonUp(0) && hit.transform.tag == "Sky")
+			Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+			RaycastHit hit;
+			if(Physics.Raycast(ray, out hit, 30))
 			{
-					positionChange = 0;
-					anim.SetInteger ("Shapeshift", 0);
-			}
-			if(Input.GetMouseButtonUp(0) && hit.transform.tag == "Earth")
-			{
-					positionChange = 1;
-					anim.SetInteger ("Shapeshift", 1);
-			}
-			if(Input.GetMouseButtonUp(0) && hit.transform.tag == "Water")
-			{
-					positionChange = 2;
-					anim.SetInteger ("Shapeshift", 2);
-			}
-			//Touch commands to set player to different array positions
-			foreach (Touch touch in Input.touches)
-			{
-				if(Input.GetTouch(0).phase == TouchPhase.Began && hit.transform.tag == "Sky")
+				//mouse commands to set player to different array positions
+				if(Input.GetMouseButtonUp(0) && hit.transform.tag == "Sky")
 				{
-					positionChange = 0;
-					anim.SetInteger ("Shapeshift", 0);
+						positionChange = 0;
+						anim.SetInteger ("Shapeshift", 0);
 				}
-				if(Input.GetTouch(0).phase == TouchPhase.Began && hit.transform.tag == "Earth")
+				if(Input.GetMouseButtonUp(0) && hit.transform.tag == "Earth")
 				{
-					positionChange = 1;
-					anim.SetInteger ("Shapeshift", 1);
+						positionChange = 1;
+						anim.SetInteger ("Shapeshift", 1);
 				}
-				if(Input.GetTouch(0).phase == TouchPhase.Began && hit.transform.tag == "Water")
+				if(Input.GetMouseButtonUp(0) && hit.transform.tag == "Water")
 				{
-					positionChange = 2;
-					anim.SetInteger ("Shapeshift", 2);
+						positionChange = 2;
+						anim.SetInteger ("Shapeshift", 2);
+				}
+				//Touch commands to set player to different array positions
+				foreach (Touch touch in Input.touches)
+				{
+					if(Input.GetTouch(0).phase == TouchPhase.Began && hit.transform.tag == "Sky")
+					{
+						positionChange = 0;
+						anim.SetInteger ("Shapeshift", 0);
+					}
+					if(Input.GetTouch(0).phase == TouchPhase.Began && hit.transform.tag == "Earth")
+					{
+						positionChange = 1;
+						anim.SetInteger ("Shapeshift", 1);
+					}
+					if(Input.GetTouch(0).phase == TouchPhase.Began && hit.transform.tag == "Water")
+					{
+						positionChange = 2;
+						anim.SetInteger ("Shapeshift", 2);
+					}
 				}
 			}
 		}

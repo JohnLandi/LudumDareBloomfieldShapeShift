@@ -4,6 +4,8 @@ using System.Collections;
 
 public class GameController : MonoBehaviour {
 
+	public MenuController mc;
+
 	//Material offset speed is divided by this number
 	public static float BackgroundMaterialOffsetSpeed = 4;
 	public float MaterialSpeedOverride;
@@ -12,6 +14,8 @@ public class GameController : MonoBehaviour {
 
 	public float TimeBetweenSpawn;
 	private float timer;
+
+	public bool m_running = false;
 
 
 	//use this where you want to save
@@ -41,11 +45,18 @@ public class GameController : MonoBehaviour {
 	{		
 		BackgroundMaterialOffsetSpeed = MaterialSpeedOverride;
 
-		timer = timer - Time.deltaTime;
-		if(timer <= 0)
+		if(m_running == true)
 		{
-			spawn.Spawner();
-			timer = TimeBetweenSpawn;
+			timer = timer - Time.deltaTime;
+			if(timer <= 0)
+			{
+				spawn.Spawner();
+				timer = TimeBetweenSpawn;
+			}
+		}
+		else
+		{
+			timer = 3;
 		}
 	}
 }

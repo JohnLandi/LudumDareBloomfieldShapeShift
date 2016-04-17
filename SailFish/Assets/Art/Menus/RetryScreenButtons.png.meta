@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f32c61858d1bf5f4f94cccd93c383984
-timeCreated: 1460868406
+timeCreated: 1460880788
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -57,74 +57,72 @@ TextureImporter:
     - name: RetryScreenButtons_0
       rect:
         serializedVersion: 2
-        x: 52
-        y: 31
-        width: 65
-        height: 233
+        x: 39
+        y: 173
+        width: 263
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 24.5, y: 116.5}
-        - {x: -32.5, y: 85.5}
-        - {x: -32.5, y: -116.5}
-        - {x: -7.5, y: -116.5}
-        - {x: 32.5, y: -100.5}
-        - {x: 32.5, y: 116.5}
+      - - {x: -131.5, y: 41}
+        - {x: -131.5, y: 33}
+        - {x: -97.5, y: -38}
+        - {x: -86.5, y: -41}
+        - {x: 131.5, y: -41}
+        - {x: 131.5, y: -24}
+        - {x: 107.5, y: 41}
     - name: RetryScreenButtons_1
       rect:
         serializedVersion: 2
-        x: 159
-        y: 35
-        width: 65
-        height: 229
+        x: 401
+        y: 173
+        width: 263
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 24.5, y: 114.5}
-        - {x: -32.5, y: 77.5}
-        - {x: -32.5, y: -114.5}
-        - {x: -26.5, y: -114.5}
-        - {x: -11.5, y: -106.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 114.5}
+      - - {x: -131.5, y: 41}
+        - {x: -131.5, y: 30}
+        - {x: -84.5, y: -41}
+        - {x: 131.5, y: -41}
+        - {x: 131.5, y: -24}
+        - {x: 108.5, y: 41}
     - name: RetryScreenButtons_2
       rect:
         serializedVersion: 2
-        x: 287
-        y: 31
-        width: 65
-        height: 234
+        x: 76
+        y: 63
+        width: 263
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 24.5, y: 117}
-        - {x: -32.5, y: 80}
-        - {x: -32.5, y: -115}
-        - {x: -28.5, y: -117}
-        - {x: -15.5, y: -117}
-        - {x: 32.5, y: -84}
-        - {x: 32.5, y: 117}
+      - - {x: -131.5, y: 37}
+        - {x: -131.5, y: 28}
+        - {x: -100.5, y: -37}
+        - {x: 131.5, y: -37}
+        - {x: 131.5, y: -30}
+        - {x: 92.5, y: 37}
     - name: RetryScreenButtons_3
       rect:
         serializedVersion: 2
-        x: 407
-        y: 41
-        width: 65
-        height: 229
+        x: 438
+        y: 63
+        width: 263
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 24.5, y: 114.5}
-        - {x: -32.5, y: 77.5}
-        - {x: -32.5, y: -114.5}
-        - {x: -26.5, y: -114.5}
-        - {x: -11.5, y: -106.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 114.5}
+      - - {x: -131.5, y: 37}
+        - {x: -131.5, y: 31}
+        - {x: -89.5, y: -37}
+        - {x: 131.5, y: -37}
+        - {x: 131.5, y: -27}
+        - {x: 88.5, y: 37}
     outline: []
   spritePackingTag: 
   userData: 

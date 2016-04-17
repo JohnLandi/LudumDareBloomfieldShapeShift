@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a0179a72c59165943be32cefa4018069
-timeCreated: 1460868379
+timeCreated: 1460880771
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -61,141 +61,150 @@ TextureImporter:
     - name: MainMenuButtons_0
       rect:
         serializedVersion: 2
-        x: 110
-        y: 332
-        width: 65
-        height: 230
+        x: 25
+        y: 181
+        width: 263
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 32.5, y: 115}
-        - {x: 26.5, y: 115}
-        - {x: -32.5, y: 78}
-        - {x: -32.5, y: -115}
-        - {x: -25.5, y: -115}
-        - {x: 24.5, y: -83}
-        - {x: 32.5, y: -77}
+      - - {x: 88.5, y: 41}
+        - {x: -131.5, y: 41}
+        - {x: -131.5, y: 19}
+        - {x: -118.5, y: -41}
+        - {x: 131.5, y: -41}
+        - {x: 131.5, y: -27}
+        - {x: 128.5, y: -22}
     - name: MainMenuButtons_1
       rect:
         serializedVersion: 2
-        x: 240
-        y: 384
-        width: 65
-        height: 229
+        x: 303
+        y: 181
+        width: 263
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -114.5}
-        - {x: -23.5, y: -114.5}
-        - {x: 32.5, y: -91.5}
-        - {x: 32.5, y: 114.5}
-        - {x: 25.5, y: 114.5}
-        - {x: -32.5, y: 88.5}
+      - - {x: -131.5, y: 41}
+        - {x: -131.5, y: 31}
+        - {x: -129.5, y: 23}
+        - {x: -94.5, y: -41}
+        - {x: 131.5, y: -41}
+        - {x: 131.5, y: -26}
+        - {x: 89.5, y: 41}
     - name: MainMenuButtons_2
       rect:
         serializedVersion: 2
-        x: 387
-        y: 344
-        width: 64
-        height: 230
+        x: 597
+        y: 183
+        width: 263
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 27, y: 115}
-        - {x: -32, y: 82}
-        - {x: -32, y: -115}
-        - {x: -27, y: -115}
-        - {x: 32, y: -82}
-        - {x: 32, y: 115}
+      - - {x: 90.5, y: 34}
+        - {x: 87.5, y: 37}
+        - {x: -131.5, y: 37}
+        - {x: -131.5, y: 30}
+        - {x: -92.5, y: -34}
+        - {x: -88.5, y: -37}
+        - {x: 131.5, y: -37}
+        - {x: 131.5, y: -32}
+        - {x: 127.5, y: -25}
     - name: MainMenuButtons_3
       rect:
         serializedVersion: 2
-        x: 517
-        y: 424
-        width: 65
-        height: 229
+        x: 871
+        y: 183
+        width: 263
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 23.5, y: 114.5}
-        - {x: -32.5, y: 91.5}
-        - {x: -32.5, y: -114.5}
-        - {x: -26.5, y: -114.5}
-        - {x: 29.5, y: -80.5}
-        - {x: 32.5, y: -76.5}
-        - {x: 32.5, y: 114.5}
+      - - {x: -131.5, y: 37}
+        - {x: -131.5, y: 28}
+        - {x: -126.5, y: 12}
+        - {x: -91.5, y: -33}
+        - {x: -87.5, y: -37}
+        - {x: 131.5, y: -37}
+        - {x: 131.5, y: -31}
+        - {x: 88.5, y: 37}
     - name: MainMenuButtons_4
       rect:
         serializedVersion: 2
-        x: 108
-        y: 0
-        width: 64
-        height: 233
+        x: 28
+        y: 45
+        width: 263
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 23, y: 116.5}
-        - {x: -32, y: 80.5}
-        - {x: -32, y: -116.5}
-        - {x: -16, y: -116.5}
-        - {x: 32, y: -86.5}
-        - {x: 32, y: 116.5}
+      - - {x: -131.5, y: 41}
+        - {x: -131.5, y: 33}
+        - {x: -90.5, y: -32}
+        - {x: -81.5, y: -41}
+        - {x: 131.5, y: -41}
+        - {x: 131.5, y: -25}
+        - {x: 88.5, y: 41}
     - name: MainMenuButtons_5
       rect:
         serializedVersion: 2
-        x: 238
-        y: 49
-        width: 64
-        height: 235
+        x: 324
+        y: 45
+        width: 263
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 23, y: 117.5}
-        - {x: -32, y: 81.5}
-        - {x: -32, y: -117.5}
-        - {x: -10, y: -117.5}
-        - {x: 32, y: -86.5}
-        - {x: 32, y: 117.5}
+      - - {x: -131.5, y: 41.5}
+        - {x: -131.5, y: 35.5}
+        - {x: -125.5, y: 25.5}
+        - {x: -87.5, y: -34.5}
+        - {x: -79.5, y: -41.5}
+        - {x: 131.5, y: -41.5}
+        - {x: 131.5, y: -25.5}
+        - {x: 88.5, y: 41.5}
     - name: MainMenuButtons_6
       rect:
         serializedVersion: 2
-        x: 384
-        y: 9
-        width: 65
-        height: 236
+        x: 619
+        y: 47
+        width: 263
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 24.5, y: 118}
-        - {x: -32.5, y: 82}
-        - {x: -32.5, y: -118}
-        - {x: -17.5, y: -118}
-        - {x: 32.5, y: -91}
-        - {x: 32.5, y: 118}
+      - - {x: -131.5, y: 37}
+        - {x: -131.5, y: 29}
+        - {x: -92.5, y: -37}
+        - {x: 131.5, y: -37}
+        - {x: 131.5, y: -29}
+        - {x: 89.5, y: 37}
     - name: MainMenuButtons_7
       rect:
         serializedVersion: 2
-        x: 515
-        y: 89
-        width: 65
-        height: 236
+        x: 893
+        y: 47
+        width: 263
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 23.5, y: 118}
-        - {x: -32.5, y: 82}
-        - {x: -32.5, y: -118}
-        - {x: -11.5, y: -118}
-        - {x: 32.5, y: -85}
-        - {x: 32.5, y: 118}
+      - - {x: -131.5, y: 37}
+        - {x: -131.5, y: 28}
+        - {x: -128.5, y: 17}
+        - {x: -88.5, y: -37}
+        - {x: 131.5, y: -37}
+        - {x: 131.5, y: -28}
+        - {x: 88.5, y: 37}
     outline: []
   spritePackingTag: 
   userData: 
