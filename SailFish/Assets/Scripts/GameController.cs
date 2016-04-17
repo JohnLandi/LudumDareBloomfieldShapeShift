@@ -6,6 +6,8 @@ public class GameController : MonoBehaviour {
 
 	public MenuController mc;
 
+	public ScoreManager sm;
+
 	//Material offset speed is divided by this number
 	public static float BackgroundMaterialOffsetSpeed = 4;
 	public float MaterialSpeedOverride;
@@ -78,6 +80,7 @@ public class GameController : MonoBehaviour {
 		if (health <= 0)
 		{
 			Debug.Log ("Player is dead");
+			sm.startScoreTime = false;
 			mc.Retry();
 			//trigger death animation. end game run
 		}

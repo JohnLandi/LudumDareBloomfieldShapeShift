@@ -6,6 +6,7 @@ public class MenuController: MonoBehaviour
 {
 
 	public GameController gc;
+	public ScoreManager sm;
 
 	public GameObject m_MainMenu;
 	public GameObject m_Credits;
@@ -38,6 +39,8 @@ public class MenuController: MonoBehaviour
 		gc.StopCreditsMusic();
 
 		gc.m_running = true;
+
+		sm.startScoreTime = true;
 	}
 
 	public void MainMenu()
@@ -96,3 +99,5 @@ public class MenuController: MonoBehaviour
 		Application.Quit();
 	}
 }
+
+
