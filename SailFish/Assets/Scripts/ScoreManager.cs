@@ -19,8 +19,8 @@ public class ScoreManager : MonoBehaviour {
 	{
 		if (startScoreTime)
 		{
-		score = score + Time.deltaTime;
+		score = score + Time.deltaTime * 6;
 		}
-		text.text = "Score: " + score;
+		text.text = "Distance: " + Mathf.Floor(score);
 	}
 }
