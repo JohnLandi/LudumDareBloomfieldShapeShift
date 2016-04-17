@@ -45,6 +45,7 @@ public class MenuController: MonoBehaviour
 
 		gc.m_running = true;
 
+		sm.score = 0;
 		sm.startScoreTime = true;
 	}
 
@@ -99,6 +100,7 @@ public class MenuController: MonoBehaviour
 		HUD2.SetActive(false);
 
 		gc.m_running = false;
+		sm.startScoreTime = false;
 	}
 		
 	public void Quit()
