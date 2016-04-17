@@ -1,5 +1,6 @@
 ﻿//Controls Gameplay objects and script actions
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class GameController : MonoBehaviour {
@@ -27,7 +28,8 @@ public class GameController : MonoBehaviour {
 	public AudioClip m_Eat;
 	public AudioClip m_GotHit;
 
-	public int health = 100;
+	public float health = 100;
+	public Image healthBar;
 
 
 	//use this where you want to save
@@ -73,7 +75,7 @@ public class GameController : MonoBehaviour {
 		}
 
 
-
+		healthBar.fillAmount = health / 100;
 		//Health Rules
 		if (health > 100)
 			health = 100;
