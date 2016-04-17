@@ -14,5 +14,7 @@ public class MaterialOffsetSpeed : MonoBehaviour {
 		{
 			backgroundMaterial.mainTextureOffset = backgroundMaterial.mainTextureOffset + new Vector2 ((Time.deltaTime / (GameController.BackgroundMaterialOffsetSpeed / speedModifier)), 0);
 		}
+		if(backgroundMaterial.mainTextureOffset.x > 1)
+			backgroundMaterial.mainTextureOffset = new Vector2 (0,0);
 	}
 }

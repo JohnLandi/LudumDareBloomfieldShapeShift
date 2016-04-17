@@ -1,9 +1,12 @@
 fileFormatVersion: 2
 guid: 991681e789b0b64438667efceb99eff8
-timeCreated: 1460799817
+timeCreated: 1460902842
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Water_0
+    21300002: Water_1
+    21300004: Water_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,26 +33,156 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Water_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 929
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 279.5, y: 67}
+        - {x: 271.5, y: 68}
+        - {x: 264.5, y: 68}
+        - {x: 263.5, y: 69}
+        - {x: 10.5, y: 69}
+        - {x: 9.5, y: 70}
+        - {x: 1.5, y: 70}
+        - {x: 0.5, y: 71}
+        - {x: -73.5, y: 71}
+        - {x: -74.5, y: 70}
+        - {x: -85.5, y: 70}
+        - {x: -86.5, y: 69}
+        - {x: -192.5, y: 69}
+        - {x: -193.5, y: 68}
+        - {x: -295.5, y: 68}
+        - {x: -296.5, y: 67}
+        - {x: -303.5, y: 67}
+        - {x: -304.5, y: 66}
+        - {x: -339.5, y: 66}
+        - {x: -339.5, y: -74}
+        - {x: 339.5, y: -74}
+        - {x: 339.5, y: 66}
+        - {x: 280.5, y: 66}
+    - name: Water_1
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 0
+        width: 929
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 306.80768, y: 66}
+        - {x: 270.80768, y: 66}
+        - {x: 269.80768, y: 65}
+        - {x: 210.80768, y: 65}
+        - {x: 209.80768, y: 66}
+        - {x: 183.80768, y: 66}
+        - {x: 182.80768, y: 67}
+        - {x: 169.80768, y: 67}
+        - {x: 168.80768, y: 68}
+        - {x: 156.80768, y: 68}
+        - {x: 155.80768, y: 69}
+        - {x: 104.80768, y: 69}
+        - {x: 103.80768, y: 68}
+        - {x: 69.80768, y: 68}
+        - {x: 68.80768, y: 67}
+        - {x: -21.192322, y: 67}
+        - {x: -22.192322, y: 68}
+        - {x: -80.19232, y: 68}
+        - {x: -81.19232, y: 69}
+        - {x: -183.19232, y: 69}
+        - {x: -184.19232, y: 68}
+        - {x: -199.19232, y: 68}
+        - {x: -200.19232, y: 67}
+        - {x: -211.19232, y: 67}
+        - {x: -212.19232, y: 68}
+        - {x: -222.19232, y: 69}
+        - {x: -227.19232, y: 69}
+        - {x: -228.19232, y: 68}
+        - {x: -287.19232, y: 68}
+        - {x: -288.19232, y: 67}
+        - {x: -305.19232, y: 67}
+        - {x: -306.19232, y: 66}
+        - {x: -336.19232, y: 66}
+        - {x: -338.19232, y: 64}
+        - {x: -338.19232, y: -74}
+        - {x: 340.80768, y: -74}
+        - {x: 340.80768, y: 67}
+        - {x: 307.80768, y: 67}
+    - name: Water_2
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 0
+        width: 929
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 332.61536, y: 66}
+        - {x: 310.61536, y: 66}
+        - {x: 306.61536, y: 68}
+        - {x: 300.61536, y: 70}
+        - {x: 293.61536, y: 69}
+        - {x: 289.61536, y: 66}
+        - {x: 184.61536, y: 66}
+        - {x: 180.61536, y: 64}
+        - {x: 106.61536, y: 64}
+        - {x: 105.61536, y: 65}
+        - {x: 101.61536, y: 66}
+        - {x: 85.61536, y: 69}
+        - {x: 78.61536, y: 70}
+        - {x: 64.61536, y: 74}
+        - {x: 6.6153564, y: 74}
+        - {x: -0.38464355, y: 73}
+        - {x: -10.384644, y: 69}
+        - {x: -17.384644, y: 67}
+        - {x: -18.384644, y: 66}
+        - {x: -160.38464, y: 66}
+        - {x: -161.38464, y: 67}
+        - {x: -179.38464, y: 68}
+        - {x: -184.38464, y: 69}
+        - {x: -196.38464, y: 71}
+        - {x: -212.38464, y: 72}
+        - {x: -275.38464, y: 72}
+        - {x: -281.38464, y: 71}
+        - {x: -288.38464, y: 70}
+        - {x: -300.38464, y: 69}
+        - {x: -307.38464, y: 68}
+        - {x: -308.38464, y: 67}
+        - {x: -339.38464, y: 67}
+        - {x: -339.38464, y: -74}
+        - {x: 340.61536, y: -74}
+        - {x: 340.61536, y: 67}
+        - {x: 333.61536, y: 67}
     outline: []
   spritePackingTag: 
   userData: 
