@@ -27,24 +27,35 @@ public class MenuController: MonoBehaviour
 
 	public void ToGame()
 	{
+		gc.PlayMenuButtonSound();
 		m_Credits.SetActive(false);
 		m_MainMenu.SetActive(false);
 		m_Retry.SetActive(false);
 		m_Rules.SetActive(false);
+
+		gc.PlayGamplayMusic();
+		gc.StopMainMenuMusic();
+		gc.StopCreditsMusic();
 
 		gc.m_running = true;
 	}
 
 	public void MainMenu()
 	{
+		gc.PlayMenuButtonSound();
 		m_Credits.SetActive(false);
 		m_MainMenu.SetActive(true);
 		m_Retry.SetActive(false);
 		m_Rules.SetActive(false);
+
+		gc.StopGamplayMusic();
+		gc.PlayMainMenuMusic();
+		gc.StopCreditsMusic();
 	}
 
 	public void Rules()
 	{
+		gc.PlayMenuButtonSound();
 		m_Credits.SetActive(false);
 		m_MainMenu.SetActive(false);
 		m_Retry.SetActive(false);
@@ -53,14 +64,20 @@ public class MenuController: MonoBehaviour
 
 	public void Credits()
 	{
+		gc.PlayMenuButtonSound();
 		m_Credits.SetActive(true);
 		m_MainMenu.SetActive(false);
 		m_Retry.SetActive(false);
 		m_Rules.SetActive(false);
+
+		gc.StopGamplayMusic();
+		gc.StopMainMenuMusic();
+		gc.PlayCreditsMusic();
 	}
 
 	public void Retry()
 	{
+		gc.PlayMenuButtonSound();
 		m_Credits.SetActive(false);
 		m_MainMenu.SetActive(false);
 		m_Retry.SetActive(true);
@@ -71,6 +88,7 @@ public class MenuController: MonoBehaviour
 		
 	public void Quit()
 	{
+		gc.PlayMenuButtonSound();
 		Application.Quit();
 	}
 }

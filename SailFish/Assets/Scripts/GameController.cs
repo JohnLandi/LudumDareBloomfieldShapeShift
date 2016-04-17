@@ -16,6 +16,15 @@ public class GameController : MonoBehaviour {
 	private float timer;
 
 	public bool m_running = false;
+	public AudioSource sound;
+	public AudioSource gameplayMusic;
+	public AudioSource mainMenuMusic;
+	public AudioSource creditsMusic;
+
+	public AudioClip m_MenuPress;
+	public AudioClip m_Eat;
+	public AudioClip m_GotHit;
+
 
 
 	//use this where you want to save
@@ -34,6 +43,7 @@ public class GameController : MonoBehaviour {
 	void Start () 
 	{
 		timer = TimeBetweenSpawn;
+		sound = GetComponent<AudioSource>();
 		
 		//	this shit below needs to be in the start for player prefs
 		//	PlayerPrefs.GetInt("ppHighScore");
@@ -58,5 +68,53 @@ public class GameController : MonoBehaviour {
 		{
 			timer = 3;
 		}
+	}
+
+	public void PlayMenuButtonSound()
+	{
+		sound.PlayOneShot(m_MenuPress, 1);
+		Debug.Log("Audio is playing bitch");
+	}
+
+	public void PlayEatSound()
+	{
+		sound.PlayOneShot(m_Eat, 1);
+		Debug.Log("Audio is playing bitch");
+	}
+
+	public void PlayHitSound()
+	{
+		sound.PlayOneShot(m_GotHit, 1);
+		Debug.Log("Audio is playing bitch");
+	}
+
+	public void PlayGamplayMusic()
+	{
+		gameplayMusic.Play();
+	}
+
+	public void StopGamplayMusic()
+	{
+		gameplayMusic.Stop();
+	}
+
+	public void PlayMainMenuMusic()
+	{
+		mainMenuMusic.Play();
+	}
+
+	public void StopMainMenuMusic()
+	{
+		mainMenuMusic.Stop();
+	}
+
+	public void PlayCreditsMusic()
+	{
+		creditsMusic.Play();
+	}
+
+	public void StopCreditsMusic()
+	{
+		creditsMusic.Stop();
 	}
 }

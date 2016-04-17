@@ -96,12 +96,14 @@ public class PlayerManager : MonoBehaviour {
 		{
 			Debug.Log("Taking Damage");
 			health -= 35;
+			gc.PlayHitSound();
 		//lower health bar or diet, etc
 		}
 		if(other.gameObject.tag == ("Heal"))
 		{	
 			health += 35;
 			Debug.Log("Receiving Health");
+			gc.PlayEatSound();
 		//Raise health bar or diet, etc
 		}
 	}
