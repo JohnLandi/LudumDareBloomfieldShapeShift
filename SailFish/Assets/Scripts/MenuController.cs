@@ -16,18 +16,6 @@ public class MenuController: MonoBehaviour
 	public GameObject HUD2;
 
 
-	// Use this for initialization
-	void Start ()
-	{
-		
-	}
-
-	// Update is called once per frame
-	void Update ()
-	{
-		
-	}
-
 	public void ToGame()
 	{
 		gc.PlayMenuButtonSound();

@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\GameoverScore.cs" />
      <Compile Include="Assets\Scripts\KillIt.cs" />
      <Compile Include="Assets\Scripts\MaterialOffsetSpeed.cs" />
      <Compile Include="Assets\Scripts\MenuController.cs" />
