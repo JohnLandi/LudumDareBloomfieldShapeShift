@@ -84,7 +84,7 @@ public class MenuController: MonoBehaviour
 
 	public void Retry()
 	{
-		gc.PlayMenuButtonSound();
+		//gc.PlayMenuButtonSound();
 		m_Credits.SetActive(false);
 		m_MainMenu.SetActive(false);
 		m_Retry.SetActive(true);

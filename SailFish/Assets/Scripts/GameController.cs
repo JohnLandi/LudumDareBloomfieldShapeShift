@@ -82,6 +82,7 @@ public class GameController : MonoBehaviour {
 			Debug.Log ("Player is dead");
 			sm.startScoreTime = false;
 			mc.Retry();
+			health = 100;
 			//trigger death animation. end game run
 		}
 	}
