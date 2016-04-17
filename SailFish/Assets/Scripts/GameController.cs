@@ -25,6 +25,7 @@ public class GameController : MonoBehaviour {
 	public AudioClip m_Eat;
 	public AudioClip m_GotHit;
 
+	public int health = 100;
 
 
 	//use this where you want to save
@@ -67,6 +68,18 @@ public class GameController : MonoBehaviour {
 		else
 		{
 			timer = 3;
+		}
+
+
+
+		//Health Rules
+		if (health > 100)
+			health = 100;
+		if (health <= 0)
+		{
+			Debug.Log ("Player is dead");
+			mc.Retry();
+			//trigger death animation. end game run
 		}
 	}
 

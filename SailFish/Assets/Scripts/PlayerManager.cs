@@ -7,7 +7,6 @@ public class PlayerManager : MonoBehaviour {
 	public Transform[] playerPositions;
 	public int positionChange = 1;
 	public float speed;
-	public int health = 100;
 
 	Animator anim;
 	ParticleSystem ps;
@@ -78,14 +77,6 @@ public class PlayerManager : MonoBehaviour {
 
 
 
-		//Health rules
-		if (health > 100)
-			health = 100;
-		if (health <= 0)
-		{
-			Debug.Log ("Player is dead");
-			//trigger death animation. end game run
-		}
 	}
 
 
@@ -95,13 +86,13 @@ public class PlayerManager : MonoBehaviour {
 		if(other.gameObject.tag == ("Damage"))
 		{
 			Debug.Log("Taking Damage");
-			health -= 35;
+			gc.health -= 35;
 			gc.PlayHitSound();
 		//lower health bar or diet, etc
 		}
 		if(other.gameObject.tag == ("Heal"))
 		{	
-			health += 35;
+			gc.health += 35;
 			Debug.Log("Receiving Health");
 			gc.PlayEatSound();
 		//Raise health bar or diet, etc
