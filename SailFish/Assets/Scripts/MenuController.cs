@@ -60,6 +60,10 @@ public class MenuController: MonoBehaviour
 		m_MainMenu.SetActive(false);
 		m_Retry.SetActive(false);
 		m_Rules.SetActive(true);
+
+		gc.StopGamplayMusic();
+		gc.StopMainMenuMusic();
+		gc.PlayCreditsMusic();
 	}
 
 	public void Credits()
